@@ -10,6 +10,8 @@ takes a photo with webcam
 
 takes a sreen shot
 
+and it starts with a fake Windows error screen so they don't get too suspicious 
+
 and then sends it to your discord webhook
 
 Do not use this for nefarious actions and I'm not responsible for your actions 
@@ -25,3 +27,5 @@ pip install pyinstaller
 cd path\to\your\script
 
 pyinstaller --noconfirm --onefile --windowed  your_script.py
+
+
